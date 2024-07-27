@@ -1,0 +1,116 @@
+.featured {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    // background-color: #013914;
+    background-color: #010640;
+    
+    background-color: 	#0b1828;
+    background-color: #1e2d40;
+
+    color: white;
+  
+    .container {
+      width: 1400px;
+      display: flex;
+      align-items: center;
+  
+      .left {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+  
+        h1 {
+          font-size: 50px;
+  
+          span {
+            font-style: italic;
+            font-weight: 300;
+          }
+        }
+  
+        .search {
+          background-color: white;
+          border-radius: 5px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          overflow: hidden;
+  
+          .searchInput {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            img {
+              width: 20px;
+              height: 20px;
+              margin: 10px;
+            }
+  
+            input {
+              border: none;
+              outline: none;
+  
+              &::placeholder {
+                color: gray;
+              }
+            }
+          }
+  
+          button {
+            width: 120px;
+            height: 50px;
+            border: none;
+            background-color: #41db84;
+            background-color: #dbb189;
+            background-color: #909485;
+            color: white;
+            align-self: flex-end;
+            cursor: pointer;
+          }
+        }
+  
+        .popular {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+  
+          span {
+            width: max-content;
+          }
+  
+          button {
+            width: max-content;
+            color: white;
+            border: 1px solid white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            background-color: transparent;
+            font-size: 14px;
+          }
+        }
+      }
+  
+      .right {
+        margin-left: 60px;
+        // height: 100%;
+        img {
+        
+          border-radius: 50%;
+          height: 100%;
+          width:90%;
+          object-fit: contain;
+          
+        }
+      }
+
+      //actual me niche wala
+    //   .right {
+    //     height: 100%;
+    //     img {
+    //       height: 100%;
+    //       object-fit: contain;
+    //     }
+    //   }
+    }
+  }
